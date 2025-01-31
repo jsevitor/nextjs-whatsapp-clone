@@ -1,3 +1,4 @@
+import Chats from "@/components/chats/Chats";
 import Navbar from "@/components/navbar/Navbar";
 import styles from "@/styles/Home.module.css";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className={styles.app_topBg}></div>
       <div className={styles.app_container}>
         <Navbar />
+        <Chats />
       </div>
     </div>
   );
