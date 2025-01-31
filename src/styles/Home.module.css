@@ -1,0 +1,46 @@
+.app {
+  --bg1: #00a884;
+  --bg2: #dbd8d4;
+  --bg_main: #f0f2f5;
+  --bg_contacts: #ffffff;
+
+  --btn_download: #017561;
+
+  --tab_active: #e7fce3;
+  --tab_inactive: #e9edef;
+
+  --icons: #54656f;
+  --icon_active: #d9dbdf;
+
+  --h1: #111b21;
+
+  background-color: var(--bg2);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app_topBg {
+  background-color: var(--bg1);
+  height: 137px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.app_container {
+  background-color: var(--bg_main);
+  width: calc(100% - 38px);
+  max-width: 1600px;
+  height: calc(100% - 38px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.05);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

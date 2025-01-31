@@ -1,6 +1,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --bg1: #00a884;
+  --bg2: #dbd8d4;
+  --bg_main: #f0f2f5;
+  --bg_contacts: #ffffff;
+
+  --btn_download: #017561;
+
+  --tab_active: #e7fce3;
+  --tab_inactive: #e9edef;
+
+  --icons: #54656f;
+  --icon_active: #d9dbdf;
+
+  --h1: #111b21;
 }
 
 html,
@@ -26,4 +41,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
