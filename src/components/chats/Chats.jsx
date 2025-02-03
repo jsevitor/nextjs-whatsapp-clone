@@ -1,11 +1,17 @@
-import { useRef, useState } from "react";
+import { use, useEffect, useRef, useState } from "react";
 import { Icon } from "@iconify/react";
 import styles from "@/components/chats/Chats.module.css";
+import chat from "@/data/chatData.json";
 
 const Chats = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [activeTab, setActiveTab] = useState("");
+  const [chatData, setChatData] = useState([]);
   const inputRef = useRef(null);
+
+  useEffect(() => {
+    setChatData(chat);
+  }, []);
 
   const handleSearchClick = () => {
     setIsSearching(true);
@@ -111,15 +117,49 @@ const Chats = () => {
         </div>
       </div>
 
-      {/* CHATS */}
-      <div className={styles.chats}>
-        <div className={styles.chatsContainer}>
-          <button>
-            <span>{/* <Icon icon={} width={} height={} color="" /> */}</span>
-            <div>Arquivadas</div>
-            <div>4</div>
-          </button>
-        </div>
+      {/* CHAT LIST */}
+      <div className={styles.chatlist}>
+        {/* ARCHIVED CHAT LIST */}
+        <button className={styles.chatlistArchived}>
+          <div className={styles.archivedIconContainer}>
+            <span>
+              <Icon
+                icon="material-symbols:archive-outline-rounded"
+                width={28}
+                height={28}
+                color="#00a884"
+              />
+            </span>
+          </div>
+          <div className={styles.archivedTitleContainer}>
+            <span>Arquivadas</span>
+          </div>
+          <div className={styles.archivedCountContainer}>
+            <span>4</span>
+          </div>
+        </button>
+
+        {/* CHATS */}
+        {chatData.map((chat, index) => (
+          <div className={styles.chatlistContainer} key={index}>
+            <div className={styles.chatContainer}>
+              <div className={styles.chatImage}>
+                <img src={chat.foto || "/profile-pic.jpg"} alt={chat.nome} />
+              </div>
+              <div className={styles.chatBody}>
+                <div>
+                  <div className={styles.chatHeader}>
+                    <h3>{chat.nome}</h3>
+                    <span>{chat.data}</span>
+                  </div>
+                  <div className={styles.chatMensage}>
+                    <p>{chat.mensagem}</p> <span>icone</span>{" "}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

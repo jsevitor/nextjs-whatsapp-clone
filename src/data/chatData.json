@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "João Silva",
+    "data": "ontem",
+    "mensagem": "Oi, tudo bem? Só queria saber se você vai na reunião amanhã.",
+    "foto": "/joao.jpg"
+  },
+  {
+    "nome": "Maria Oliveira",
+    "data": "segunda-feira",
+    "mensagem": "Você já viu o último episódio daquela série? Estou adorando!",
+    "foto": "/maria.jpg"
+  },
+  {
+    "nome": "Carlos Pereira",
+    "data": "quarta-feira",
+    "mensagem": "Vou viajar para o Rio na próxima semana, precisa de algo?",
+    "foto": "/carlos.jpg"
+  },
+  {
+    "nome": "Fernanda Costa",
+    "data": "sexta-feira",
+    "mensagem": "Aquele relatório que você me pediu já está pronto, vou te enviar agora.",
+    "foto": "/fernanda.jpg"
+  },
+  {
+    "nome": "Lucas Martins",
+    "data": "terça-feira",
+    "mensagem": "Estou pensando em comprar um novo celular, alguma recomendação?",
+    "foto": "lucas.jpg"
+  }
+]
