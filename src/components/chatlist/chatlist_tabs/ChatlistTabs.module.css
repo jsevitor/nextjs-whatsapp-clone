@@ -1,0 +1,58 @@
+.tabs {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --bg1: #00a884;
+  --bg2: #dbd8d4;
+  --bg_main: #f0f2f5;
+  --bg_chats: #ffffff;
+
+  --btn_download: #017561;
+
+  --tab_active: #e7fce3;
+  --tab_inactive: #e9edef;
+
+  --icons: #54656f;
+  --icon_active: #d9dbdf;
+
+  --h1: #111b21;
+  --highlight: #25d366;
+
+  --border: 1px solid;
+  --border-list: #e9edef;
+
+  --chat-font-size: 17px;
+  --chat-meta: #667781;
+
+  flex: 1;
+  padding: 0.125rem 0.75rem 0.438rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.tabsContainer {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  min-width: 0;
+  min-height: 0;
+}
+
+.tabsBtn,
+.activeTab {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  line-height: 1.333;
+  color: var(--icons);
+  background-color: var(--tab_inactive);
+  border-top-left-radius: 2.625rem;
+  border-top-right-radius: 2.625rem;
+  border-bottom-left-radius: 2.625rem;
+  border-bottom-right-radius: 2.625rem;
+}
+
+.activeTab {
+  color: var(--bg1);
+  background-color: var(--tab_active);
+}

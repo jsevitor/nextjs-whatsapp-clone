@@ -1,4 +1,4 @@
-import Chats from "@/components/chats/Chats";
+import Chats from "@/components/chatlist/Chats";
 import Navbar from "@/components/navbar/Navbar";
 import styles from "@/styles/Home.module.css";
 

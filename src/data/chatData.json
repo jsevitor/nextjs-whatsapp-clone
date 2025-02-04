@@ -28,5 +28,47 @@
     "data": "terça-feira",
     "mensagem": "Estou pensando em comprar um novo celular, alguma recomendação?",
     "foto": "lucas.jpg"
+  },
+  {
+    "nome": "Ana Souza",
+    "data": "hoje",
+    "mensagem": "Oi! Como você está?",
+    "foto": "/ana.jpg"
+  },
+  {
+    "nome": "Rafael Almeida",
+    "data": "domingo",
+    "mensagem": "Lembrete: nossa reunião está marcada para amanhã às 10h.",
+    "foto": "/rafael.jpg"
+  },
+  {
+    "nome": "Beatriz Lima",
+    "data": "quinta-feira",
+    "mensagem": "Vamos almoçar na terça-feira? Quero te contar as novidades!",
+    "foto": "/beatriz.jpg"
+  },
+  {
+    "nome": "Pedro Costa",
+    "data": "sábado",
+    "mensagem": "Eu vi o que você postou, ficou ótimo!",
+    "foto": "/pedro.jpg"
+  },
+  {
+    "nome": "Juliana Pereira",
+    "data": "ontem",
+    "mensagem": "Eu comprei aquele presente que você queria, posso te mostrar depois!",
+    "foto": "/juliana.jpg"
+  },
+  {
+    "nome": "Tiago Oliveira",
+    "data": "terça-feira",
+    "mensagem": "Precisamos agendar uma call ainda essa semana.",
+    "foto": "/tiago.jpg"
+  },
+  {
+    "nome": "Mariana Souza",
+    "data": "sexta-feira",
+    "mensagem": "Oi! Você vai na festa de aniversário do Carlos hoje à noite?",
+    "foto": "/mariana.jpg"
   }
 ]
