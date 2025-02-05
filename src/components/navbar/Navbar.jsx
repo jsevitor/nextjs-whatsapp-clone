@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   // Estado para controlar o ícone ativo
-  const [activeIcon, setActiveIcon] = useState("");
+  const [activeIcon, setActiveIcon] = useState("conversas");
 
   // Função para lidar com o clique nos ícones
   const handleIconClick = (iconName) => {
