@@ -1,0 +1,19 @@
+.main {
+  --bg: #f0f2f5;
+  --icons: #54656f;
+
+  height: 3.875rem;
+  background-color: var(--bg);
+}
+
+.chatFooter {
+  height: 100%;
+  padding: 0 1rem 0.313rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatbox {
+  flex: 1;
+}

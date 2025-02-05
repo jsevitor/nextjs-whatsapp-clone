@@ -1,0 +1,17 @@
+.main {
+  --header-bg: #f0f2f5;
+  --header-icons: #a2acb2;
+  --border: #d1d7db;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transform-origin: left top;
+  transition: background-color 0.3s;
+}

@@ -1,3 +1,4 @@
+import Chat from "@/components/chat/Chat";
 import Chats from "@/components/chatlist/Chats";
 import Intro from "@/components/intro/Intro";
 import Navbar from "@/components/navbar/Navbar";
@@ -10,7 +11,8 @@ export default function Home() {
       <div className={styles.app_container}>
         <Navbar />
         <Chats />
-        <Intro />
+        {/* <Intro /> */}
+        <Chat />
       </div>
     </div>
   );
