@@ -1,0 +1,87 @@
+.intro {
+  --intro-text: #54656f;
+  --intro-text-lighter: #8696a0;
+  --btn: #008069;
+  --btn-text: #fff;
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.introContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1.75rem 0;
+  overflow: hidden;
+}
+
+.introContent {
+  width: 80%;
+  max-width: 560px;
+  margin-top: -1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.introContent img {
+  width: 320px;
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  color: var(--intro-text);
+  flex-shrink: 0;
+}
+
+.introText h1 {
+  font-weight: 100;
+  margin-top: 1.75rem;
+  margin-top: 38px;
+  color: var(--primary-title);
+}
+
+.introText .introCaption {
+  margin-top: 2rem;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+.introBtn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.introBtn button {
+  padding: 0.625rem 1.5rem;
+  line-height: 1.1429;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--btn-text);
+  background-color: var(--btn);
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+
+.introFooter {
+  color: var(--intro-text-lighter);
+  font-size: 0.875rem;
+  line-height: 1.25;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.introFooterIcon {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
