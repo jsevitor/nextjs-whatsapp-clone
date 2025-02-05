@@ -63,7 +63,19 @@ const Chats = () => {
                     <h3>{chat.nome}</h3>
                     <span>{chat.data}</span>
                   </div>
-                  <div className={styles.chatMensage}>
+                  <div className={styles.chatMensage} title={chat.mensagem}>
+                    <span className={styles.chatStatusIcon}>
+                      <Icon
+                        icon={
+                          chat.status === "enviado"
+                            ? "quill:checkmark-double"
+                            : ""
+                        }
+                        width={20}
+                        height={20}
+                        color="#8696A0"
+                      />
+                    </span>
                     <p>{chat.mensagem}</p>
                     <span className={styles.chatMoreIcon}>
                       <Icon

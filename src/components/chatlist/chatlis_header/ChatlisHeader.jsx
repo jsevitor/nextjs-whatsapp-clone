@@ -24,10 +24,10 @@ const ChatlisHeader = () => {
             <h1>Conversas</h1>
           </div>
           <div className={styles.headerOptions}>
-            <span>
+            <span title="Nova conversa">
               <Icon icon="ci:chat-add" width={24} height={24} color="#54656f" />
             </span>
-            <span>
+            <span title="Mais opções">
               <Icon
                 icon="pepicons-pop:dots-y"
                 width={24}

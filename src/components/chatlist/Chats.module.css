@@ -47,7 +47,7 @@
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
-  scrollbar-color: #bbb #f1f1f1;
+  scrollbar-color: #bbb #ffffff;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
@@ -174,13 +174,14 @@
 }
 
 .chatMensage {
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  line-height: 0.1rem;
   color: var(--chat-meta);
 }
 
-.chatHeader h3,
+/* .chatHeader h3,
 .chatMensage p {
   display: flex;
   align-items: center;
@@ -188,15 +189,24 @@
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
+} */
+.chatMensage .chatStatusIcon {
+  margin-right: 3px;
+  padding-top: 3px;
 }
 
 .chatMensage p {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 0.875rem;
   font-weight: 400;
 }
 
-.chatMoreIcon {
-  margin-top: 2px;
+.chatMensage .chatMoreIcon {
+  padding-top: 2px;
 }
 
 .chatFooter {

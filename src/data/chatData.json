@@ -3,72 +3,84 @@
     "nome": "João Silva",
     "data": "ontem",
     "mensagem": "Oi, tudo bem? Só queria saber se você vai na reunião amanhã.",
-    "foto": "/joao.jpg"
+    "foto": "/joao.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Maria Oliveira",
     "data": "segunda-feira",
     "mensagem": "Você já viu o último episódio daquela série? Estou adorando!",
-    "foto": "/maria.jpg"
+    "foto": "/maria.jpg",
+    "status": "recebido"
   },
   {
     "nome": "Carlos Pereira",
     "data": "quarta-feira",
     "mensagem": "Vou viajar para o Rio na próxima semana, precisa de algo?",
-    "foto": "/carlos.jpg"
+    "foto": "/carlos.jpg",
+    "status": "recebido"
   },
   {
     "nome": "Fernanda Costa",
     "data": "sexta-feira",
     "mensagem": "Aquele relatório que você me pediu já está pronto, vou te enviar agora.",
-    "foto": "/fernanda.jpg"
+    "foto": "/fernanda.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Lucas Martins",
     "data": "terça-feira",
     "mensagem": "Estou pensando em comprar um novo celular, alguma recomendação?",
-    "foto": "lucas.jpg"
+    "foto": "lucas.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Ana Souza",
     "data": "hoje",
     "mensagem": "Oi! Como você está?",
-    "foto": "/ana.jpg"
+    "foto": "/ana.jpg",
+    "status": "recebido"
   },
   {
     "nome": "Rafael Almeida",
     "data": "domingo",
     "mensagem": "Lembrete: nossa reunião está marcada para amanhã às 10h.",
-    "foto": "/rafael.jpg"
+    "foto": "/rafael.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Beatriz Lima",
     "data": "quinta-feira",
     "mensagem": "Vamos almoçar na terça-feira? Quero te contar as novidades!",
-    "foto": "/beatriz.jpg"
+    "foto": "/beatriz.jpg",
+    "status": "recebido"
   },
   {
     "nome": "Pedro Costa",
     "data": "sábado",
     "mensagem": "Eu vi o que você postou, ficou ótimo!",
-    "foto": "/pedro.jpg"
+    "foto": "/pedro.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Juliana Pereira",
     "data": "ontem",
     "mensagem": "Eu comprei aquele presente que você queria, posso te mostrar depois!",
-    "foto": "/juliana.jpg"
+    "foto": "/juliana.jpg",
+    "status": "recebido"
   },
   {
     "nome": "Tiago Oliveira",
     "data": "terça-feira",
     "mensagem": "Precisamos agendar uma call ainda essa semana.",
-    "foto": "/tiago.jpg"
+    "foto": "/tiago.jpg",
+    "status": "enviado"
   },
   {
     "nome": "Mariana Souza",
     "data": "sexta-feira",
     "mensagem": "Oi! Você vai na festa de aniversário do Carlos hoje à noite?",
-    "foto": "/mariana.jpg"
+    "foto": "/mariana.jpg",
+    "status": "recebido"
   }
 ]
