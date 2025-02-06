@@ -2,5 +2,5 @@
   --bg: #efeae2;
 
   flex: 1;
-  background-color: var(--bg);
+  background-image: url("/chat-bg.png");
 }
