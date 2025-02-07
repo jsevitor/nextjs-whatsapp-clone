@@ -1,28 +1,32 @@
 [
   {
     "nome": "João Silva",
-    "data": "ontem",
+    "data": "15:21",
+    "hora": "15:21",
     "mensagem": "Oi, tudo bem? Só queria saber se você vai na reunião amanhã.",
     "foto": "/joao.jpg",
     "status": "enviado"
   },
   {
     "nome": "Maria Oliveira",
-    "data": "segunda-feira",
+    "data": "09:12",
+    "hora": "09:12",
     "mensagem": "Você já viu o último episódio daquela série? Estou adorando!",
     "foto": "/maria.jpg",
     "status": "recebido"
   },
   {
     "nome": "Carlos Pereira",
-    "data": "quarta-feira",
+    "data": "ontem",
+    "hora": "16:45",
     "mensagem": "Vou viajar para o Rio na próxima semana, precisa de algo?",
     "foto": "/carlos.jpg",
     "status": "recebido"
   },
   {
     "nome": "Fernanda Costa",
-    "data": "sexta-feira",
+    "data": "quinta-feira",
+    "hora": "11:30",
     "mensagem": "Aquele relatório que você me pediu já está pronto, vou te enviar agora.",
     "foto": "/fernanda.jpg",
     "status": "enviado"
@@ -30,55 +34,63 @@
   {
     "nome": "Lucas Martins",
     "data": "terça-feira",
+    "hora": "14:22",
     "mensagem": "Estou pensando em comprar um novo celular, alguma recomendação?",
-    "foto": "lucas.jpg",
+    "foto": "/lucas.jpg",
     "status": "enviado"
   },
   {
     "nome": "Ana Souza",
-    "data": "hoje",
+    "data": "01/02/2025",
+    "hora": "10:00",
     "mensagem": "Oi! Como você está?",
     "foto": "/ana.jpg",
     "status": "recebido"
   },
   {
     "nome": "Rafael Almeida",
-    "data": "domingo",
+    "data": "28/01/2025",
+    "hora": "08:30",
     "mensagem": "Lembrete: nossa reunião está marcada para amanhã às 10h.",
     "foto": "/rafael.jpg",
     "status": "enviado"
   },
   {
     "nome": "Beatriz Lima",
-    "data": "quinta-feira",
+    "data": "28/01/2025",
+    "hora": "13:45",
     "mensagem": "Vamos almoçar na terça-feira? Quero te contar as novidades!",
     "foto": "/beatriz.jpg",
     "status": "recebido"
   },
   {
     "nome": "Pedro Costa",
-    "data": "sábado",
+    "data": "25/01/2025",
+    "hora": "16:30",
     "mensagem": "Eu vi o que você postou, ficou ótimo!",
     "foto": "/pedro.jpg",
     "status": "enviado"
   },
   {
     "nome": "Juliana Pereira",
-    "data": "ontem",
+    "data": "14/01/2025",
+    "hora": "18:00",
     "mensagem": "Eu comprei aquele presente que você queria, posso te mostrar depois!",
     "foto": "/juliana.jpg",
     "status": "recebido"
   },
   {
     "nome": "Tiago Oliveira",
-    "data": "terça-feira",
+    "data": "05/01/2025",
+    "hora": "09:50",
     "mensagem": "Precisamos agendar uma call ainda essa semana.",
     "foto": "/tiago.jpg",
     "status": "enviado"
   },
   {
     "nome": "Mariana Souza",
-    "data": "sexta-feira",
+    "data": "28/12/2024",
+    "hora": "20:15",
     "mensagem": "Oi! Você vai na festa de aniversário do Carlos hoje à noite?",
     "foto": "/mariana.jpg",
     "status": "recebido"

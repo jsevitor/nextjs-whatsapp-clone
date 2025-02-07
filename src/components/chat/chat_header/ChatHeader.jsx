@@ -2,23 +2,23 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 import styles from "@/components/chat/chat_header/ChatHeader.module.css";
 
-const ChatHeader = () => {
+const ChatHeader = ({ name, picture }) => {
   return (
     <header className={styles.chatHeader}>
       <div>
         <span className={styles.chatUserImg} title="Dados do perfil">
           <Image
             className={styles.profilePic}
-            src={"/profile-pic.jpg"}
+            src={picture || "/profile-pic.jpg"}
             width={36}
             height={36}
-            alt="Profile Picture"
+            alt={`Profile Picture ${name}`}
           />
         </span>
       </div>
       <div className={styles.chatUserInfo}>
         <div className={styles.chatUserName}>
-          <h3>Joao</h3>
+          <h3>{name}</h3>
         </div>
       </div>
 

@@ -5,17 +5,12 @@ import chat from "@/data/chatData.json";
 import ChatlisHeader from "./chatlis_header/ChatlisHeader";
 import ChatlistTabs from "./chatlist_tabs/ChatlistTabs";
 
-const Chats = () => {
+const Chats = ({ activeChat, setActiveChat }) => {
   const [chatData, setChatData] = useState([]);
-  const [activeChat, setActiveChat] = useState(null); // Estado para o chat ativo
 
   useEffect(() => {
     setChatData(chat);
   }, []);
-
-  const handleChatClick = (index) => {
-    setActiveChat(index); // Atualiza o chat ativo
-  };
 
   return (
     <div className={styles.chatsSection}>
@@ -48,10 +43,10 @@ const Chats = () => {
         {chatData.map((chat, index) => (
           <div
             className={`${styles.chatlistContainer} ${
-              activeChat === index ? styles.activeChat : ""
+              activeChat === chat ? styles.activeChat : ""
             }`}
             key={index}
-            onClick={() => handleChatClick(index)} // Ativa o chat clicado
+            onClick={() => setActiveChat(chat)} // Ativa o chat clicado
           >
             <div className={styles.chatContainer}>
               <div className={styles.chatImage}>

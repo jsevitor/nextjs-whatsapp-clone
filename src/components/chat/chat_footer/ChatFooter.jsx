@@ -1,12 +1,15 @@
-import styles from "@/components/chat/chat_footer/ChatFooter.module.css";
+import { useState } from "react";
 import { Icon } from "@iconify/react";
+import styles from "@/components/chat/chat_footer/ChatFooter.module.css";
 
 const ChatFooter = () => {
+  const [inputValue, setInputValue] = useState("");
+
   return (
     <footer className={styles.main}>
       <div className={styles.chatFooter}>
         <div>
-          <button className={styles.pulsBtnIcon}>
+          <button className={styles.pulsBtnIcon} title="Anexar">
             <Icon
               icon="ic:baseline-plus"
               width={30}
@@ -28,14 +31,19 @@ const ChatFooter = () => {
               </button>
             </div>
             <div className={styles.chatInput}>
-              <input type="text" placeholder="Digite uma mensagem" />
+              <input
+                type="text"
+                placeholder="Digite uma mensagem"
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+              />
             </div>
           </div>
         </div>
         <div className={styles.chatMic}>
           <button>
             <Icon
-              icon="material-symbols:mic"
+              icon={inputValue.trim() ? "mdi:send" : "material-symbols:mic"}
               width={28}
               height={28}
               color="#54656F"
