@@ -42,4 +42,8 @@ Este projeto é uma **replicação da interface do WhatsApp Web**, desenvolvida 
 
 - Implementação de **temas claro/escuro**  
 - Animações mais fluidas nas transições de tela  
-- Melhor organização e otimização de componentes 
+- Melhor organização e otimização de componentes
+
+## Acesse o projeto
+
+[wappwebclone.netlify.app](https://wappwebclone.netlify.app)  
