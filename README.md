@@ -8,6 +8,7 @@ Este projeto é uma replicação da interface do WhatsApp Web, desenvolvida com 
 
 ## Acesse o projeto
 
+O projeto pode ser acessado diretamente pelo link:
 [wappwebclone.netlify.app](https://wappwebclone.netlify.app)
 
 ## Tecnologias Utilizadas
